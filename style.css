@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.main {
+    background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    color: #FAF9F9;
+    flex: 0 0 580px;
+    margin-top: 170px;
+    margin-bottom: 170px;
+}
+
+h1 {
+    /* font-family: Nunito Sans; */
+font-size: 120px;
+font-weight: 800;
+text-transform: uppercase;
+line-height: 140px; 
+margin-bottom: 39px;
+/* text-align: left; */
+}
+
+h1 span {
+    color: #FBB731;
+    font-family: Nunito Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    display: block;
+    margin-bottom: 10px;
+    /* text-align: left; */
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: left;
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+a {
+    color: #1E2F40;
+    background-color: #FBB731;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 20px 45px;
+    line-height: 18px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.visual {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.bg {
+    height: 100%;
+    width: 432px;
+    background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+    left: 1118px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+img {
+    width: 829px;
+    height: 861px;
+    left: 1px;
+    position: absolute;
+    right: -168px;
+}
